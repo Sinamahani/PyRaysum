@@ -846,7 +846,7 @@ class Model(object):
         with open(fname, "w") as fil:
             fil.write(buf)
 
-    def plot(self, zmax=75.0):
+    def plot(self, zmax=75.0, show=True):
         """
         Plot model as a staircase, layers and labelled interfaces, and show it
 
